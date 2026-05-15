@@ -233,8 +233,7 @@ function Navbar() {
                             )
                         })}
 
-                        <button
-                            className="
+                        <button  className="
                                 mt-4
                                 bg-[#066000]
                                 hover:bg-[#044A00]
@@ -243,8 +242,7 @@ function Navbar() {
                                 font-medium
                                 py-4 px-6
                                 rounded-2xl
-                            "
-                        >
+                            ">
                             Entre em contato
                         </button>
                     </nav>
