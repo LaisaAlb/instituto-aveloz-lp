@@ -19,13 +19,7 @@ const navigation = [
 
 function Footer() {
   return (
-    <footer className="relative
-        overflow-hidden
-        bg-[#030B05]
-        text-white
-        border-t border-white/5
-      "
-    >
+    <footer className="relative overflow-hidden bg-[#030B05] text-white border-t border-white/5">
       {/* Glow */}
       <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-green-500/10 rounded-full blur-[140px]"></div>
 
