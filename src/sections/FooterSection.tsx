@@ -1,5 +1,5 @@
 import { ArrowUpRight, Building2, Globe, Contact, Mail, MapPin } from 'lucide-react'
-import logo from '../assets/instituto-aveloz-logo.png'
+import logo from '../assets/Instituto-aveloz-logo.png'
 
 const navigation = [
   { label: 'Sobre', href: '#sobre' },
