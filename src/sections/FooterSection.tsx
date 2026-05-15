@@ -1,4 +1,4 @@
-import { ArrowUpRight, Building2, Globe, Contact, Mail, MapPin } from 'lucide-react'
+import { ArrowUpRight, Building2, Globe, MessageCircle, Mail, MapPin } from 'lucide-react'
 import logo from '../assets/Instituto-aveloz-logo.png'
 
 const navigation = [
@@ -49,7 +49,7 @@ function FooterSection() {
                   transition-all duration-300
                 "
               >
-                <Contact
+                <MessageCircle
                   size={24}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
