@@ -19,9 +19,7 @@ const navigation = [
 
 function Footer() {
   return (
-    <footer
-      className="
-        relative
+    <footer className="relative
         overflow-hidden
         bg-[#030B05]
         text-white
