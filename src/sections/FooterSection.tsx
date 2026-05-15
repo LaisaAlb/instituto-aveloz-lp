@@ -36,8 +36,7 @@ function FooterSection() {
                 href="https://instagram.com/institutoaveloz"
                 target="_blank"
                 rel="noreferrer"
-                className="
-                  group
+                className="group
                   w-14 h-14
                   rounded-2xl
                   bg-white/5
