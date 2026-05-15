@@ -20,42 +20,18 @@ const navigation = [
 function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#030B05] text-white border-t border-white/5">
-      {/* Glow */}
+
       <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-green-500/10 rounded-full blur-[140px]"></div>
 
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-emerald-400/10 rounded-full blur-[140px]"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        {/* Top */}
-        <div
-          className="
-            grid
-            lg:grid-cols-[1.2fr_0.8fr_0.8fr]
-            gap-14
-            py-24
-            border-b border-white/10
-          "
-        >
-          {/* Brand */}
-          <div>
-            <img
-              src={logo}
-              alt="Instituto Aveloz"
-              className="
-                h-10
-                object-contain
-                mb-8
-              "
-            />
+        <div className="grid lg:grid-cols-[1.2fr_0.8fr_0.8fr] gap-14 py-24 border-b border-white/10">
 
-            <p
-              className="
-                text-gray-400
-                leading-relaxed
-                text-[15px]
-                max-w-md
-              "
-            >
+          <div>
+            <img src={logo} alt="Instituto Aveloz" className="h-10 object-contain mb-8" />
+
+            <p className="text-gray-400 leading-relaxed text-[15px] max-w-md">
               O Instituto Aveloz atua na promoção do
               desenvolvimento territorial sustentável através
               de iniciativas sociais, ambientais e comunitárias
@@ -63,7 +39,6 @@ function Footer() {
               colaborativas.
             </p>
 
-            {/* Social */}
             <div className="flex items-center gap-4 mt-10">
               <a
                 href="https://instagram.com/institutoaveloz"
@@ -165,11 +140,8 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Informações */}
           <div>
-            <span
-              className="
-                inline-flex items-center gap-2
+            <span className="inline-flex items-center gap-2
                 text-sm
                 uppercase
                 tracking-[0.2em]
@@ -244,12 +216,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
-        <div
-          className="
-            py-8
-            flex
-            flex-col md:flex-row
+        <div className="py-8 flex flex-col md:flex-row
             items-center
             justify-between
             gap-4
