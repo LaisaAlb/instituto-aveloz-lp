@@ -17,7 +17,7 @@ const navigation = [
   { label: 'Contato', href: '#contato' },
 ]
 
-function Footer() {
+function FooterSection() {
   return (
     <footer className="relative overflow-hidden bg-[#030B05] text-white border-t border-white/5">
 
@@ -240,4 +240,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default FooterSection

@@ -3,7 +3,7 @@ import HeroSection from './sections/HeroSection'
 import AboutSection from './sections/AboutSection'
 import ServicesSection from './sections/ServicesSection'
 import ContactSection from './sections/ContactSection'
-import Footer from './sections/FooterSection'
+import FooterSection from './sections/FooterSection'
 import GovernanceSection from './sections/GovernanceSection'
 import ParticipateSection from './sections/ParticipateSection'
 import AreasSection from './sections/AreasSection'
@@ -21,7 +21,7 @@ function App() {
         <GovernanceSection />
         <ParticipateSection />
         <ContactSection />
-        <Footer />
+        <FooterSection />
       </main>
 
     </div>
