@@ -178,16 +178,7 @@ function Navbar() {
 
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className="
-                                lg:hidden
-                                p-3
-                                rounded-2xl
-                                bg-(--primary)
-                                backdrop-blur-xl
-                                border border-white/20
-                                text-gray-700 dark:text-white
-                                transition-all duration-300
-                            "
+                           className="lg:hidden p-3 rounded-2xl bg-(--primary) backdrop-blur-xl border border-white/20 text-white flex items-center justify-center transition-all duration-300"
                             aria-label="Toggle menu"
                         >
                             {isMenuOpen ? (
@@ -213,7 +204,7 @@ function Navbar() {
                     className="
                         mx-4 mb-4
                         rounded-[32px]
-                        bg-white/70
+                        bg-white/90
                         backdrop-blur-2xl
                         border border-white/20
                         shadow-2xl
@@ -263,7 +254,7 @@ function Navbar() {
                     </nav>
                 </div>
             </div>
-        </header>
+        </header >
     )
 }
 
