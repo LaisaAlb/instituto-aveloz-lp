@@ -38,13 +38,12 @@ function GovernanceSection() {
       id="governanca"
       className="relative py-20 md:py-32 overflow-hidden bg-slate-50"
     >
-      {/* BACKGROUNDS */}
+
       <div className="absolute top-0 left-0 w-[220px] md:w-[350px] h-[220px] md:h-[350px] bg-(--primary)/5 rounded-full blur-[100px]" />
       <div className="absolute bottom-0 right-0 w-[220px] md:w-[350px] h-[220px] md:h-[350px] bg-emerald-500/5 rounded-full blur-[100px]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
 
-        {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-14 md:mb-24">
 
           <div className="inline-flex items-center gap-2 md:gap-3 bg-white border border-slate-200 shadow-sm px-4 md:px-5 py-2 md:py-3 rounded-full mb-6 md:mb-8">
@@ -65,17 +64,14 @@ function GovernanceSection() {
 
         </div>
 
-        {/* GRID */}
         <div className="relative overflow-hidden rounded-3xl p-6 md:p-10 lg:p-12 flex flex-col justify-center min-h-[420px] md:min-h-[520px] shadow-sm">
 
-          {/* LEFT */}
           <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm p-5 md:p-10 lg:p-12">
 
             <div className="absolute top-0 right-0 w-40 md:w-60 h-40 md:h-60 bg-emerald-500/5 rounded-full blur-[100px]" />
 
             <div className="relative z-10">
 
-              {/* TITLE AREA */}
               <div className="flex items-center gap-3 md:gap-4 mb-8 md:mb-12">
 
                 <div className="w-12 md:w-14 h-12 md:h-14 rounded-2xl bg-(--primary) flex items-center justify-center text-white">
@@ -94,7 +90,6 @@ function GovernanceSection() {
 
               </div>
 
-              {/* CARDS */}
               <div className="space-y-4 md:space-y-6">
 
                 {board.map((item) => {
