@@ -1,11 +1,10 @@
 import Navbar from './components/Navbar'
 import HeroSection from './sections/HeroSection'
 import AboutSection from './sections/AboutSection'
-import ServicesSection from './sections/ServicesSection'
+import ObjectivesSection from './sections/ObjectivesSection'
 import ContactSection from './sections/ContactSection'
 import FooterSection from './sections/FooterSection'
 import GovernanceSection from './sections/GovernanceSection'
-import ParticipateSection from './sections/ParticipateSection'
 import AreasSection from './sections/AreasSection'
 
 function App() {
@@ -16,10 +15,9 @@ function App() {
       <main>
         <HeroSection />
         <AboutSection />
-        <ServicesSection />
+        <ObjectivesSection />
         <AreasSection />
         <GovernanceSection />
-        <ParticipateSection />
         <ContactSection />
         <FooterSection />
       </main>

@@ -11,11 +11,7 @@ function HeroSection() {
       "
     >
       <div className="absolute inset-0">
-        <img
-          src={hero}
-          alt="Instituto Aveloz"
-          className="w-full h-full object-cover"
-        />
+        <img src={hero} alt="Instituto Aveloz" className="w-full h-full object-cover" />
 
         <div className="absolute inset-0 bg-black/60"></div>
 
@@ -23,14 +19,7 @@ function HeroSection() {
       </div>
 
       <div className="relative z-10 w-full px-6">
-        <div
-          className="
-            max-w-5xl mx-auto
-            flex flex-col items-center
-            text-center
-            animate-slide-up
-          "
-        >
+        <div className="max-w-5xl mx-auto flex flex-col items-center text-center animate-slide-up">
 
           <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white max-w-5xl">
             Desenvolvendo
@@ -60,7 +49,8 @@ function HeroSection() {
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row items-center sm:justify-center sm:gap-6 gap-6">
-            <button
+            <a
+              href='#sobre'
               className="
                 bg-(--primary)
                 text-white
@@ -74,9 +64,10 @@ function HeroSection() {
               "
             >
               Conheça nosso trabalho
-            </button>
+            </a>
 
-            <button
+            <a
+              href='#atuacao'
               className="
                 bg-(--accent)
                 hover:bg-[#B8861F]
@@ -89,8 +80,8 @@ function HeroSection() {
                 shadow-[0_10px_30px_rgba(217,164,65,0.25)]
               "
             >
-              Seja um associado
-            </button>
+              Nossa atuação
+            </a>
           </div>
         </div>
       </div>

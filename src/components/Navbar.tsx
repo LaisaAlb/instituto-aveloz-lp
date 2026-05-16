@@ -9,22 +9,36 @@ function Navbar() {
 
     const navLinks = [
         { href: '#sobre', label: 'Quem Somos' },
-        { href: '#atuacao', label: 'Objetivos' },
-        { href: '#areas', label: 'Atuação' },
+        { href: '#objetivos', label: 'Objetivos' },
+        { href: '#atuacao', label: 'Atuação' },
         { href: '#governanca', label: 'Governança' },
-        { href: '#participar', label: 'Participar' },
     ]
 
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 20)
 
+            const scrollPosition = window.scrollY + 200
+
+            const contactSection = document.getElementById('contato')
+
+            // 🔴 PRIORIDADE MÁXIMA: se entrou no contato, zera tudo
+            if (contactSection) {
+                const contactTop = contactSection.offsetTop
+
+                if (scrollPosition >= contactTop) {
+                    setActiveSection('')
+                    return
+                }
+            }
+
+            // 🔵 HERO
             if (window.scrollY < 300) {
                 setActiveSection('')
                 return
             }
 
-            const scrollPosition = window.scrollY + 200
+            let foundSection = ''
 
             navLinks.forEach((link) => {
                 const sectionId = link.href.replace('#', '')
@@ -38,12 +52,13 @@ function Navbar() {
                         scrollPosition >= offsetTop &&
                         scrollPosition < offsetTop + offsetHeight
                     ) {
-                        setActiveSection(sectionId)
+                        foundSection = sectionId
                     }
                 }
             })
-        }
 
+            setActiveSection(foundSection)
+        }
         handleScroll()
 
         window.addEventListener('scroll', handleScroll)
@@ -233,7 +248,7 @@ function Navbar() {
                             )
                         })}
 
-                        <button  className="
+                        <button className="
                                 mt-4
                                 bg-[#066000]
                                 hover:bg-[#044A00]

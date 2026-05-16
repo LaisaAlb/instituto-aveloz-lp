@@ -79,7 +79,6 @@ function FooterSection() {
             </div>
           </div>
 
-          {/* Navegação */}
           <div>
             <span
               className="

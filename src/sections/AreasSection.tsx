@@ -34,7 +34,7 @@ const areas = [
 
 function AreasSection() {
   return (
-    <section id="areas" className="relative py-32 overflow-hidden bg-[#07110B]">
+    <section id="atuacao" className="relative py-32 overflow-hidden bg-[#07110B]">
 
       <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-green-500/10 rounded-full blur-[140px]"></div>
 

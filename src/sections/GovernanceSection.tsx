@@ -1,13 +1,9 @@
 import {
-  BadgeCheck,
   Building2,
-  Download,
   Landmark,
   ShieldCheck,
   Users,
 } from 'lucide-react'
-
-import estatutoPdf from '../assets/estatuto.pdf'
 
 const board = [
   {
@@ -28,14 +24,14 @@ const board = [
 ]
 
 function GovernanceSection() {
-  const handleDownload = () => {
-    const link = document.createElement('a')
-    link.href = estatutoPdf
-    link.download = 'Estatuto-Instituto-Aveloz.pdf'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
+  // const handleDownload = () => {
+  //   const link = document.createElement('a')
+  //   link.href = estatutoPdf
+  //   link.download = 'Estatuto-Instituto-Aveloz.pdf'
+  //   document.body.appendChild(link)
+  //   link.click()
+  //   document.body.removeChild(link)
+  // }
 
   return (
     <section
@@ -70,7 +66,7 @@ function GovernanceSection() {
         </div>
 
         {/* GRID */}
-        <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-6 md:gap-10">
+        <div className="relative overflow-hidden rounded-3xl p-6 md:p-10 lg:p-12 flex flex-col justify-center min-h-[420px] md:min-h-[520px] shadow-sm">
 
           {/* LEFT */}
           <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm p-5 md:p-10 lg:p-12">
@@ -133,8 +129,7 @@ function GovernanceSection() {
             </div>
           </div>
 
-          {/* RIGHT */}
-          <div className="
+          {/* <div className="
             relative overflow-hidden
             rounded-3xl
             bg-(--primary)
@@ -166,7 +161,6 @@ function GovernanceSection() {
 
             </div>
 
-            {/* BUTTON FIXED */}
             <div className="relative z-10 mt-10 md:mt-14">
 
               <button
@@ -188,9 +182,9 @@ function GovernanceSection() {
                 Download do Estatuto
               </button>
 
-            </div>
+            </div> 
 
-          </div>
+          </div> */}
 
         </div>
 
