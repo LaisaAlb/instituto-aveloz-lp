@@ -4,8 +4,7 @@ function HeroSection() {
   return (
     <section
       id="hero"
-      className="
-        pt-30
+      className="pt-30
         relative min-h-screen
         flex items-center justify-center
         overflow-hidden
@@ -60,13 +59,7 @@ function HeroSection() {
             territorial e comunitário.
           </p>
 
-          <div
-            className="
-              mt-12
-              flex flex-col sm:flex-row
-              items-center gap-5
-            "
-          >
+          <div className="mt-12 flex flex-col sm:flex-row items-center sm:justify-center sm:gap-6 gap-6">
             <button
               className="
                 bg-(--primary)
