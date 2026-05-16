@@ -248,16 +248,16 @@ function Navbar() {
                             )
                         })}
 
-                        <button className="
-                                mt-4
-                                bg-[#066000]
-                                hover:bg-[#044A00]
-                                text-white
-                                transition-all duration-300
-                                font-medium
-                                py-4 px-6
-                                rounded-2xl
-                            ">
+                        <button
+                            onClick={() => {
+                                const el = document.getElementById('contato')
+                                if (el) {
+                                    el.scrollIntoView({ behavior: 'smooth' })
+                                }
+                                setIsMenuOpen(false)
+                            }}
+                            className="mt-4 bg-(--primary) hover:bg-[#044A00] text-white transition-all duration-300 font-medium py-4 px-6 rounded-2xl"
+                        >
                             Entre em contato
                         </button>
                     </nav>
