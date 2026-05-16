@@ -32,25 +32,8 @@ function HeroSection() {
             animate-slide-up
           "
         >
-          <div
-            className="
-              inline-flex sm:items-center sm:gap-3
-              bg-white/10
-              backdrop-blur-xl
-              border border-white/20
-              px-5 py-3
-              rounded-full
-              sm:hidden
-            "
-          >
-            <div className="w-2 h-2 rounded-full bg-(--accent) animate-pulse sm:block hidden"></div>
 
-            <span className="text-white text-sm font-semibold uppercase tracking-[0.2em] sm:block hidden">
-              Desenvolvimento Territorial Sustentável
-            </span>
-          </div>
-
-          <h1 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white max-w-5xl">
+          <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white max-w-5xl">
             Desenvolvendo
             <span className="text-(--accent)">
               {" "}territórios
