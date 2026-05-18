@@ -152,7 +152,7 @@ function GovernanceSection() {
 
               <p className="mt-8 text-lg text-green-50 leading-relaxed">
                 Disponibilizamos publicamente a declaração oficial referente à publicação e transparência das informações institucionais no site.
-                Este documento reforça nosso compromisso com a transparência, integridade e acesso às informações institucionais.
+                Este documento reforça nosso compromisso com a integridade e acesso às informações institucionais.
               </p>
 
             </div>
