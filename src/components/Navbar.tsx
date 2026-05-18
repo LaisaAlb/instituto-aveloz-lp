@@ -22,7 +22,6 @@ function Navbar() {
 
             const contactSection = document.getElementById('contato')
 
-            // 🔴 PRIORIDADE MÁXIMA: se entrou no contato, zera tudo
             if (contactSection) {
                 const contactTop = contactSection.offsetTop
 
@@ -32,7 +31,6 @@ function Navbar() {
                 }
             }
 
-            // 🔵 HERO
             if (window.scrollY < 300) {
                 setActiveSection('')
                 return

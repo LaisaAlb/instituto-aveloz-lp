@@ -2,9 +2,9 @@ import { ArrowUpRight, Building2, Globe, MessageCircle, Mail, MapPin } from 'luc
 import logo from '../assets/Instituto-aveloz-logo.png'
 
 const navigation = [
+  { label: 'Início', href: '#inicio' },
   { label: 'Sobre', href: '#sobre' },
   { label: 'Objetivos', href: '#objetivos' },
-  { label: 'Áreas', href: '#areas' },
   { label: 'Governança', href: '#governanca' },
   { label: 'Contato', href: '#contato' },
 ]
