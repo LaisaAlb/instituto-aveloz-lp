@@ -26,11 +26,11 @@ function HeroSection() {
             <span className="text-(--accent)">
               {" "}territórios
             </span>
-            {" "}e
+            {" "}
             <span className="text-(--accent)">
-              {" "}comunidades
+              {" "}sustentáveis
             </span>
-            {" "}sustentáveis.
+            {" "}para comunidades
           </h1>
 
           <p

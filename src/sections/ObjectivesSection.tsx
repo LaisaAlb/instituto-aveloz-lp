@@ -76,13 +76,12 @@ function ObjectivesSection() {
                   <Icon size={30} className="text-white" strokeWidth={2.2} />
                 </div>
 
-                <h3 className="text-xl font-bold mb-4 text-slate-900">
+                <h3 className="text-xl font-bold mb-4 text-slate-900 hove">
                   {service.title}
                 </h3>
 
                 <p className="text-slate-600 leading-relaxed text-[14.5px]">
-                  Iniciativas estratégicas voltadas ao fortalecimento territorial,
-                  inclusão social e desenvolvimento sustentável das comunidades.
+                  {service.description}
                 </p>
 
                 <div className="mt-6 h-[2px] w-12 rounded-full bg-linear-to-r from-(--primary) to-transparent" />

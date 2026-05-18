@@ -21,7 +21,6 @@ function AboutSection() {
   return (
     <section id="sobre" className="py-20 md:py-32 relative overflow-hidden bg-[#06110A]">
 
-      {/* Blurs */}
       <div className="absolute top-0 left-0 w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-green-500/10 rounded-full blur-[120px] md:blur-[140px]" />
       <div className="absolute bottom-0 right-0 w-[300px] md:w-[500px] h-[300px] md:h-[500px] bg-emerald-500/10 rounded-full blur-[120px] md:blur-[140px]" />
 
@@ -29,7 +28,6 @@ function AboutSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 md:gap-20 items-center">
 
-          {/* TEXTOS */}
           <div>
 
             <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-xl border border-white/10 px-4 md:px-5 py-2 md:py-3 rounded-full">
@@ -40,7 +38,7 @@ function AboutSection() {
             </div>
 
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mt-6 md:mt-8 leading-tight text-white">
-              Desenvolvimento humano, territorial e{' '}
+              Desenvolvimento territorial {' '}
               <span className="text-(--accent)">sustentável.</span>
             </h2>
 
@@ -76,7 +74,6 @@ function AboutSection() {
             </div>
           </div>
 
-          {/* IMAGEM */}
           <div className="relative">
 
             <div className="relative rounded-[24px] md:rounded-[40px] overflow-hidden h-[420px] sm:h-[500px] md:h-[700px] shadow-[0_20px_80px_rgba(0,0,0,0.45)]">
@@ -98,7 +95,6 @@ function AboutSection() {
 
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
 
-              {/* CARD INTERNO */}
               <div className="absolute bottom-4 md:bottom-0 left-0 p-4 md:p-10 w-full">
 
                 <div className="bg-white/10 backdrop-blur-2xl border border-white/10 rounded-2xl md:rounded-[32px] p-4 md:p-8 max-w-full md:max-w-md">
@@ -118,7 +114,6 @@ function AboutSection() {
                 </div>
               </div>
 
-              {/* INDICADORES */}
               <div className="absolute bottom-3 md:bottom-8 right-3 md:right-8 flex items-center gap-2 md:gap-3">
                 {images.map((_, index) => (
                   <button
@@ -140,7 +135,6 @@ function AboutSection() {
 
         </div>
 
-        {/* CARDS */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mt-20 md:mt-28">
 
           {[
