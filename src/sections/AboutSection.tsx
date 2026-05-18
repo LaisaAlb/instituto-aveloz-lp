@@ -48,7 +48,7 @@ function AboutSection() {
             </p>
 
             <p className="mt-4 md:mt-6 text-base md:text-lg text-gray-300 leading-relaxed">
-              Atuamos com inclusão social, agricultura familiar e fortalecimento comunitário.
+              Atuamos com inclusão social, agricultura familiar, fortalecimento comunitário, cultura e formação.
             </p>
 
             <div className="mt-10 md:mt-12 flex flex-wrap gap-4 md:gap-5">
