@@ -5,7 +5,7 @@ import declaração_retificação from '../assets/DERACLARAÇÃO DE PUBLICAÇÃO
 const board = [
   {
     title: 'Presidência',
-    name: 'Madalena Margarida da Silva Teixeira',
+    name: 'Madalena Margarida da Silva',
     icon: Landmark,
   },
   {
