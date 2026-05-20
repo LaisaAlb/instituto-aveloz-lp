@@ -1,6 +1,6 @@
 import { Building2, Landmark, ShieldCheck, Users, Download, BadgeCheck } from 'lucide-react'
 
-import declaração_retificação from '../assets/DERACLARAÇÃO DE PUBLICAÇÃO NO SITE.pdf'
+import regulamento from '../assets/REGULAMENTO_DE_COMPRAS_ATUALIZADO.pdf'
 
 const board = [
   {
@@ -23,8 +23,8 @@ const board = [
 function GovernanceSection() {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = declaração_retificação
-    link.download = 'Declaração_retificação_publicacao_site.pdf'
+    link.href = regulamento
+    link.download = 'Regulamento_de_Compras.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
