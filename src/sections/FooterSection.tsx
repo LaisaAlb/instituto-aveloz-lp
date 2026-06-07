@@ -5,6 +5,7 @@ const navigation = [
   { label: 'Sobre', href: '#sobre' },
   { label: 'Objetivos', href: '#objetivos' },
   { label: 'Governança', href: '#governanca' },
+  { label: 'Últimas Ações', href: '#blog' },
   { label: 'Contato', href: '#contato' },
 ]
 

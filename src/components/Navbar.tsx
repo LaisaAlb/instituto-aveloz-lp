@@ -12,6 +12,7 @@ function Navbar() {
         { href: '#objetivos', label: 'Objetivos' },
         { href: '#atuacao', label: 'Atuação' },
         { href: '#governanca', label: 'Governança' },
+        { href: '#blog', label: 'Últimas Ações' },
     ]
 
     useEffect(() => {
