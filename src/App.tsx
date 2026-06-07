@@ -5,6 +5,7 @@ import ObjectivesSection from './sections/ObjectivesSection'
 import ContactSection from './sections/ContactSection'
 import FooterSection from './sections/FooterSection'
 import GovernanceSection from './sections/GovernanceSection'
+import BlogSection from './sections/BlogSection'
 import AreasSection from './sections/AreasSection'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <ObjectivesSection />
         <AreasSection />
         <GovernanceSection />
+        <BlogSection />
         <ContactSection />
         <FooterSection />
       </main>
